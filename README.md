@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/nuget-package-blue?logo=nuget)](https://github.com/taliyahpottruff/WordReference.NET)
+[![Static Badge](https://img.shields.io/badge/nuget-package-blue?logo=nuget)](https://www.nuget.org/packages/WordReference.NET)
 # WordReference.NET
 
 A simple .NET library for querying WordReference.
