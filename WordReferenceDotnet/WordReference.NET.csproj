@@ -10,6 +10,12 @@
         <Description>A simple .NET library for querying WordReference.
 
 WARNING: Written permission is required in order to gather information from WordReference from automated means. We assume no liability from use of this package. Please obtain permission first.</Description>
+        <PackageProjectUrl>https://github.com/taliyahpottruff/WordReference.NET</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/taliyahpottruff/WordReference.NET/refs/heads/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/taliyahpottruff/WordReference.NET</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>wordreference,api</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
