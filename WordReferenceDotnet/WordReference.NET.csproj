@@ -11,13 +11,21 @@
 
 WARNING: Written permission is required in order to gather information from WordReference from automated means. We assume no liability from use of this package. Please obtain permission first.</Description>
         <PackageProjectUrl>https://github.com/taliyahpottruff/WordReference.NET</PackageProjectUrl>
-        <PackageLicenseUrl>https://raw.githubusercontent.com/taliyahpottruff/WordReference.NET/refs/heads/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/taliyahpottruff/WordReference.NET</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>wordreference,api</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.0</Version>
+        <PackageReleaseNotes>- Added translating words</PackageReleaseNotes>
+        <Copyright>2026 Taliyah Pottruff</Copyright>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+    
     <ItemGroup>
       <PackageReference Include="AngleSharp" Version="1.4.0" />
     </ItemGroup>
